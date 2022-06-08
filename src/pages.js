@@ -6,6 +6,7 @@ function pageLanging(req, res) {
         return res.render("index.html")
 }
 
+
 async function pageStudy(req, res) {
     const filters = req.query
 
